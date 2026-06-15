@@ -91,8 +91,6 @@ football-ticket-booking-system/
 ├── sample_data.sql
 ├── QUERY.sql
 ├── README.md
-│
-└── screenshots/
 ```
 
 ### File Descriptions
