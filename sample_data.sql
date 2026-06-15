@@ -1,6 +1,6 @@
 
 -- user table data insert
-insert into users (full_name, email, role, phone_number)
+insert into Users (full_name, email, role, phone_number)
 values
 ('Tanvir Rahman', 'tanvir@mail.com', 'Football Fan', '+8801711111111'),
 ('Asif Haque', 'asif@mail.com', 'Football Fan', '+8801722222222'),
@@ -10,7 +10,7 @@ values
 
 
 -- matches table data insert
-insert into matches (
+insert into Matches (
     match_id,
     fixture,
     tournament_category,
@@ -31,7 +31,7 @@ values
 
 
 -- bookings table data insert
-insert into bookings (booking_id, user_id, match_id, seat_number, payment_status, total_cost)
+insert into Bookings (booking_id, user_id, match_id, seat_number, payment_status, total_cost)
 values
 (501, 1, 101, 'A-12', 'Confirmed', 150),
 (502, 1, 102, 'B-04', 'Confirmed', 120),

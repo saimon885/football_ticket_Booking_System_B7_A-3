@@ -1,5 +1,5 @@
 -- Users table
-create table users(
+create table Users(
   user_id serial primary key,
   full_name varchar(150) not null,
   role varchar(50) not null
@@ -10,7 +10,7 @@ create table users(
 
 
 -- matches Table
-create table matches (
+create table Matches (
     match_id int primary key,
     fixture text not null,
     tournament_category varchar(50) not null
@@ -36,7 +36,7 @@ create table matches (
 
 
 -- Bookings table
-create table bookings(
+create table Bookings(
   booking_id int primary key,
   user_id int not null references users(user_id),
   match_id int not null references matches(match_id),
